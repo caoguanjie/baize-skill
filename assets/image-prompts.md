@@ -6,34 +6,30 @@
 
 ```text
 Use case: ads-marketing.
-Create a new finished GitHub README hero banner for "白泽.skill". Use the supplied image ONLY as a visual style reference: its near-black background, large clean white sans-serif typography, muted gray secondary copy, restrained burnt-orange accents, fine rules and rational two-column editorial layout. Do NOT reproduce the Darwin name, score chart, numbers, claims, star counts, or text. Do NOT include the white webpage margin from the screenshot. Output only the edge-to-edge dark banner, panoramic 3:1 ratio, ideally 2400 × 800.
+Redesign this Baize README hero banner to express the PRODUCT'S CORE POSITIONING, not a sample login flow.
+Use the supplied image only for the approved visual identity: near-black #111111 background, large white bold Chinese sans-serif, gray secondary text, restrained burnt orange, crisp thin lines, generous margins. Completely replace its text and right-side diagram. Output a finished edge-to-edge panoramic 3:1 banner, ideally 2400 x 800. No surrounding webpage.
 
-The user rejected an overly theatrical mythological illustration. This replacement should look like a serious, polished open-source developer-tool masthead: flat, minimal, precise typography, excellent spacing and disciplined alignment. No animals, scenery, mythology, 3D objects, glowing lights, gradients, texture or decorative illustration.
+Meaning: Baize gives product managers, testers, developers and AI a SINGLE shared, maintainable understanding of a complex business system. Many business flows span modules and shared capabilities. The map lets readers see the whole system, then examine relevant implementation details. It is a shared business atlas, not a login tool, single call chain, source-code search engine, or automatic regression guard.
 
-Product meaning: Baize is an Agent Skill that maps real business flows in existing code, from overview through module and sub-flow diagrams to traceable source-code anchors. Its core idea is understanding the map before reading code, based on current source evidence.
+LEFT about 48% of canvas:
+A thin orange left rule, disciplined typographic alignment.
+Small letter-spaced orange eyebrow: "BAIZE · SHARED BUSINESS MAP"
+Very large bold white brand title: "白泽.skill"
+White slogan, two lines, EXACT text:
+"让人和 AI，"
+"看懂同一套业务。"
+Smaller muted-gray supporting copy, two lines:
+"从业务全景到实现细节"
+"一张持续维护的地图"
 
-Composition closely inspired by the reference:
-- Entire background solid near-black #111111.
-- Left 62% contains typography, generous margins, a very thin burnt-orange vertical rule on its left, and fine charcoal horizontal rules at its upper and lower boundaries.
-- Right 30% shows an elegant, compact technical route diagram rather than a score chart. A small orange uppercase section label above. Four distinct restrained rectangular nodes cascade downward and slightly right, connected sequentially with crisp orthogonal lines and small arrowheads. Each node is one step in the exact order below; the final source-code anchor node is orange filled, earlier nodes dark charcoal with subtle gray outlines. Clear visual movement from high-level business to precise code location. No complex branching, fake metrics, decorative icons or UI buttons.
-- Keep all contents at least 6% from image edges. All Chinese must be readable at a final display width of 900px.
-- Use bold clean modern sans-serif Chinese lettering like Source Han Sans/PingFang; bold modern Latin sans-serif. Absolutely no calligraphy or serif type.
+RIGHT about 43% of canvas:
+An elegant FLAT technical illustration of ONE shared business atlas viewed at two scales. Avoid the previous sequential flowchart completely.
+Main visual is a wide rectangular map panel labeled "业务全景", containing THREE or FOUR clearly grouped business regions. Each region contains several tiny rectangular step nodes, connected by orderly thin gray paths with a few branches. Different regions are connected by a small number of clear cross-region handoff paths. A restrained orange hub labeled "共用能力" connects to more than one region. This is a structured readable system map with groups and cross-links, never a chaotic neural network, molecule, galaxy, or radial spokes.
+Highlight one small group with a thin orange selection rectangle. A fine pair of guide lines from that selected region leads to a small flat inset at the lower right labeled "实现细节"; the inset contains a few precise anchor squares and one small code-bracket glyph. It communicates zooming from whole-business understanding to implementation without displaying any function name, file path, login step or specific business name.
+Around the shared map panel place FOUR modest, readable reader labels: "产品", "测试", "开发", "AI". Use clean typography with tiny neutral markers or subtle connection lines to the SAME map. They are peers consulting a common atlas, NOT four steps in a pipeline or four separate maps.
+Prioritize the overall map silhouette, region groupings and shared connections. Keep node interiors unlabeled; the only right-side words are the exact labels specified. Keep the composition calm with sufficient negative space and contrast. The four reader labels and map title should remain readable at 900px overall display width.
 
-Exact text, render verbatim:
-Left column, top small letter-spaced orange eyebrow: "AGENT SKILL · CODE ATLAS"
-Left column, very large bold white primary title: "白泽.skill"
-Below the title, small letter-spaced medium gray: "BAIZE · SKILL"
-Below with ample spacing, medium-large bold white slogan: "先看图，再读码。"
-Next line in smaller light gray: "让业务有脉络，让代码有坐标。"
-Near lower rule, a single smaller capability line with orange key words and gray separators: "业务全景 · 源码锚点 · 持续校验"
-Right column top label in small spaced orange: "BUSINESS → CODE"
-Right diagram nodes, sequentially top to bottom:
-"业务全景"
-"模块总览"
-"子模块详图"
-"源码锚点"
-
-Do not add any other text, signature, made-up quantitative claim, legend, watermark, logo, badge, glow, photo or page frame. Match the reference's sober engineering feel and strong hierarchy while faithfully representing Baize's different functionality.
+No additional text, no invented stats or safety promises, no flowchart about login/authentication, no method names, no giant code snippets, no mythical animals, no scenery, no 3D, no neon or glow, no gradients, no texture, no watermark. The finished banner should communicate "humans and AI understand the SAME business through a shared overview and navigable detail" before anything else.
 ```
 
 ## 底部插画：footer.png

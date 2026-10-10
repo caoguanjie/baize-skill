@@ -1,12 +1,14 @@
 <p align="right"><a href="README.md">中文</a> · English</p>
 
-![Baize: see the business flow, find the code that runs it](assets/banner.png)
+![Baize: people and AI share a business map, from related flows and shared capabilities to implementation details](assets/banner.png)
 
 # Baize · baize-skill
 
-**See the business flow. Find the code that runs it.**
+**A shared understanding of the business, for people and AI.**
 
-Baize is a shared business map for product teams, testers, developers and AI. It connects the overall flow, its branches and handoffs to the code that implements them, so the team can discuss the same business using the same Markdown document.
+From the business overview to implementation details, in a map you keep up to date.
+
+Baize is a shared business map for product teams, testers, developers and AI. It connects related business flows, branches, handoffs and shared capabilities to their implementation. The team and AI work from the same Markdown map, moving from the overall picture to the details relevant to their task.
 
 | Reader | What the map helps them do |
 | --- | --- |
