@@ -1,8 +1,8 @@
 <p align="right">中文 · <a href="README_EN.md">English</a></p>
 
-![白泽：先看图，再读码](assets/banner.svg)
+<h1 align="center">白泽.skill</h1>
 
-# 白泽 baize-skill
+![白泽：先看图，再读码。让业务有脉络，让代码有坐标。](assets/banner.png)
 
 **给旧项目一张能查代码、能跟着改动更新的业务地图。**
 
@@ -411,7 +411,7 @@ references/探查经验/
 baize-skill/
 ├── SKILL.md                 AI 的操作说明
 ├── README.md / README_EN.md 人读说明
-├── assets/banner.svg        横幅
+├── assets/                  README 横幅与插画
 ├── references/
 │   ├── 版式规范.md
 │   ├── 已知断点.md           13 类基础追法
@@ -462,4 +462,4 @@ Python 旧实现和对应测试已移除，工具与测试统一使用 Node.js�
 
 ---
 
-**白泽知万物之状。先看图，再读码。**
+![白泽捧着流程图：白泽知万物之状。先看图，再读码。以当前代码为准，让每条链路有据可查。](assets/footer.png)

@@ -1,10 +1,23 @@
 <p align="right"><a href="README.md">中文</a> · English</p>
 
-![Baize: map the flow, then read the code](assets/banner.svg)
+![Baize: see the business flow, find the code that runs it](assets/banner.png)
 
 # Baize · baize-skill
 
-**A maintainable business-flow map for understanding and changing existing projects.**
+**See the business flow. Find the code that runs it.**
+
+Baize is a shared business map for product teams, testers, developers and AI. It connects the overall flow, its branches and handoffs to the code that implements them, so the team can discuss the same business using the same Markdown document.
+
+| Reader | What the map helps them do |
+| --- | --- |
+| Product teams | Check business rules and where exceptions lead, against the intended requirements. |
+| Testers | List successful and failed paths, cancellations, retries and handoffs. |
+| Developers | Follow business steps across application layers to the relevant code entry points. |
+| AI | Narrow the context to the relevant sub-flow, then read its source code to verify the implementation. |
+
+Developers and AI usually build and maintain the map. Product and test teams can read it directly during reviews. The same map can also help architects and new teammates understand how the system fits together.
+
+The long-term aim is to make the business knowledge of complex systems a shared asset that teams and AI can verify and keep up to date.
 
 Baize is an Agent Skill: instructions, references and small Node.js tools that help an AI trace a business flow through actual code. It produces Chinese Markdown documentation with three reading levels:
 
@@ -21,9 +34,11 @@ Business overview -> Module overview -> Sub-flow detail
                                   Source-code anchors
 ```
 
-It works with frontend-only, backend-only, full-stack, native and scheduled-task projects. It maps what exists, labels external boundaries, and records uncertainty rather than inventing connections. Frontend maps include response handling, not just outgoing requests.
+In the [login example](examples/账号登录.md), readers follow sign-in steps and branches on the left, then use the matching node IDs to find implementation cards and source anchors on the right. Everyone reads the same Markdown. The example is fictional, has no corresponding source code, and is not a verified authentication design.
 
-See the [Chinese guide](README.md) for the full workflow and the [fictional login example](examples/账号登录.md) for the format. The example has no corresponding source code and is not a verified authentication design.
+Baize works with frontend-only, backend-only, full-stack, native and scheduled-task projects. It maps what exists, labels external boundaries, and records uncertainty rather than inventing connections. Frontend maps include response handling, not just outgoing requests.
+
+See the [Chinese guide](README.md) for the full workflow.
 
 ## Install into a project
 
@@ -114,4 +129,4 @@ Static checks do not prove runtime correctness or authentication security. Sourc
 
 ---
 
-**Map the flow. Then read the code.**
+![A simple Baize mascot holding a flowchart. See the business flow. Find the code that runs it. Ground every flow in current source evidence.](assets/footer.png)
