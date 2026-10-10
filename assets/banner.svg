@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">白泽 baize-skill</title>
+  <desc id="desc">先看图，再读码。业务全景、模块总览、子模块详图逐层连接到源码。</desc>
+  <rect width="1200" height="300" rx="16" fill="#112a2a"/>
+  <g fill="none" stroke="#294442" stroke-width="1">
+    <path d="M640 30v240M700 30v240M760 30v240M820 30v240M880 30v240M940 30v240M1000 30v240M1060 30v240M1120 30v240M610 60h540M610 120h540M610 180h540M610 240h540"/>
+  </g>
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="58" y="78" fill="#9ac1af" font-size="15" letter-spacing="3">BAIZE · BUSINESS FLOW MAPS</text>
+    <text x="54" y="156" fill="#f2ede0" font-size="64" font-weight="650">白泽</text>
+    <text x="216" y="153" fill="#f2ede0" font-size="29">baize-skill</text>
+    <text x="58" y="213" fill="#c7d9d0" font-size="23">先看图，再读码。</text>
+    <text x="58" y="252" fill="#90b2a3" font-size="15">从业务问题，走到真正负责的那段代码。</text>
+  </g>
+  <g fill="none" stroke="#9ac1af" stroke-width="2.5">
+    <path d="M685 87h130v63h126M815 150v74h252"/>
+    <path d="m925 144 8 6-8 6m126 62 8 6-8 6"/>
+  </g>
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="17">
+    <rect x="622" y="58" width="130" height="58" rx="7" fill="#1d3b36" stroke="#9ac1af"/>
+    <text x="687" y="93" fill="#f2ede0" text-anchor="middle">业务全景</text>
+    <rect x="872" y="121" width="130" height="58" rx="7" fill="#1d3b36" stroke="#9ac1af"/>
+    <text x="937" y="156" fill="#f2ede0" text-anchor="middle">模块总览</text>
+    <rect x="946" y="195" width="198" height="58" rx="7" fill="#ded5b9"/>
+    <text x="1045" y="230" fill="#19362f" text-anchor="middle">N1.01 → 源码</text>
+  </g>
+  <circle cx="815" cy="150" r="5" fill="#d8c48f"/>
+</svg>

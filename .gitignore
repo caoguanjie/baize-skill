@@ -1,0 +1,11 @@
+# OS and runtime caches
+.DS_Store
+node_modules/
+.codebase-memory/
+
+# Local environment and project-specific skill data
+.env
+.env.*
+!.env.example
+references/项目设置.md
+references/探查经验/
